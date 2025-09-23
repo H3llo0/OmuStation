@@ -1086,3 +1086,29 @@
   - type: Tag
     tags:
     - Meat
+
+- type: entity
+  name: gunkslider
+  parent: FoodBurgerBase
+  id: FoodSliderGunk
+  description: Squeaks.
+  components:
+  - type: FlavorProfile
+    flavors:
+      - bun
+      - meaty
+      - oily
+  - type: Sprite
+    state: gunk
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 15
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 7
+        - ReagentId: Protein
+          Quantity: 3
+  - type: Tag
+    tags:
+    - Meat

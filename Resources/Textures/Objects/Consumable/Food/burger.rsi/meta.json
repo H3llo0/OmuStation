@@ -183,6 +183,9 @@
       "name": "mothroach"
     },
     {
+      "name": "gunk"
+    },
+    {
       "name": "inhand-right",
       "directions": 4
     },
